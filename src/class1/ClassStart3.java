@@ -3,7 +3,7 @@ package class1;
 public class ClassStart3 {
     public static void main(String[] args) {
         Student student1;
-        student1 = new Student();
+        student1 = new Student(); // 메모리에 생성
         student1.name = "학생1";
         student1.age = 18;
         student1.grade = 90;
@@ -18,6 +18,9 @@ public class ClassStart3 {
         student3.name = "학생3";
         student3.age = 30;
         student3.grade = 70;
+
+        System.out.println(student1);
+        System.out.println(student3);
 
 
         System.out.println("이름:" + student1.name + " 나이:" + student1.age + " 성적:" + student1.grade);
